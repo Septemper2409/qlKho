@@ -21,7 +21,7 @@ namespace QLKho.DAO
 
         private DataProvider() { }
 
-        string connectionSTR = @"Data Source=DESKTOP-MDLBPQV\SQLEXPRESS;Initial Catalog=TT_QLKHO;Integrated Security=True";
+        string connectionSTR = @"Data Source=DESKTOP-QPBOL8S\SQLEXPRESS;Initial Catalog=TT_QLKHO;Integrated Security=True";
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {

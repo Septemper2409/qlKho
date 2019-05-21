@@ -17,7 +17,7 @@ namespace QLKho
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmmenu());
+            Application.Run(new GUI.FormLogin());
         }
     }
 }
