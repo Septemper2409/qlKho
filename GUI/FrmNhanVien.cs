@@ -18,7 +18,14 @@ namespace QLKho.GUI
         public FrmNhanVien()
         {
             InitializeComponent();
-            Load();
+            //Load();
+        }
+
+        private void FrmNhanVien_Load(object sender, EventArgs e)
+        {
+            dgvNhanvien.DataSource = NvList;
+            LoadListNV();
+            AddBinding();
         }
 
         private void btnback_Click(object sender, EventArgs e)
@@ -26,12 +33,12 @@ namespace QLKho.GUI
             this.Close();
         }
 
-        void Load()
-        {
-            dgvNhanvien.DataSource = NvList;
-            LoadListNV();
-            AddBinding();
-        }
+        //void Load()
+        //{
+        //    dgvNhanvien.DataSource = NvList;
+        //    LoadListNV();
+        //    AddBinding();
+        //}
 
         void LoadListNV()
         {

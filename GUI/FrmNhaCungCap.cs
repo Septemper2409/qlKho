@@ -49,7 +49,7 @@ namespace QLKho.GUI
         private void btnThem_Click(object sender, EventArgs e)
         {
 
-            if (MessageBox.Show("Bạn có thật sự muốn thêm nhà cũng cấp có tên là : " + txtTenncc.Text, "Thông Báo", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes) ;
+            if (MessageBox.Show("Bạn có thật sự muốn thêm nhà cũng cấp có tên là : " + txtTenncc.Text, "Thông Báo", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
             {
                 if (txtTenncc.Text == "" || txtDiachincc.Text == "" || txtSdtncc.Text == "" || txtWebncc.Text == "")
                 {
