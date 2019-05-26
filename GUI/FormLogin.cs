@@ -21,7 +21,7 @@ namespace QLKho.GUI
         {
             if(txtPass.Text =="" || txtUser.Text == "")
             {
-                // show sai mk 
+                MessageBox.Show("Mời nhập đầy đủ thông tin !!!");
             }
             else
             {
